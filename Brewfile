@@ -44,10 +44,10 @@ cask "fork"
 cask "bitwarden"
 cask "postman"
 
-# install vscode extensions
-function vscode() {
-  code --install-extension $1
-}
+# # install vscode extensions
+# function vscode() {
+#   code --install-extension $1
+# }
 
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
