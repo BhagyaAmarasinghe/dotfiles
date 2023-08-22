@@ -44,7 +44,16 @@ cask "fork"
 cask "bitwarden"
 cask "postman"
 
-vscode "alefragnani.project-manager"
+# install vscode extensions
+function vscode() {
+  code --install-extension $1
+}
+
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "golang.go"
+vscode "GitHub.copilot"
+vscode "GitHub.github-vscode-theme"
 vscode "GitHub.copilot"
 vscode "github.vscode-github-actions"
 vscode "hashicorp.terraform"
