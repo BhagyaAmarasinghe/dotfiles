@@ -44,7 +44,7 @@ cask "fork"
 cask "bitwarden"
 cask "postman"
 
-# # install vscode extensions
+# install vscode extensions
 # function vscode() {
 #   code --install-extension $1
 # }
