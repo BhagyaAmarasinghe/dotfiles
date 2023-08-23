@@ -11,7 +11,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
 
-#go vars
+# go vars
 export GOPATH="$HOME/work"
 export PATH="$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
 
