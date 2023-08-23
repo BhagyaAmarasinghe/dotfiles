@@ -15,6 +15,7 @@ eval "$(rbenv init -)"
 export GOPATH="$HOME/work"
 export PATH="$HOME/.cargo/bin:/usr/local/opt/openssl@1.1/bin:$PATH"
 
+# pyenv vars
 if ! (echo "$PATH" | grep pyenv >/dev/null 2>&1) ; then
     PATH="$(pyenv root)/shims:$PATH"
 fi
