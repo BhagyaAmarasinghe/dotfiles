@@ -30,6 +30,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew 'bash-completion'
+brew "colima"
 
 # casks
 cask "docker"
